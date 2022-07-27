@@ -1,0 +1,93 @@
+#homeBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 10vh;
+    color: white;
+}
+#aboutBody {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+#worksBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 1vh;
+}
+
+
+.headers {
+    display: flex;
+    justify-content: center;
+}
+
+.headers > img {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.links {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    font-size: 1.4em;
+    text-align: center;
+    border: 2px solid #1d2527;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #08080a;
+    color: white;
+}
+
+
+#homeBody > h1 {
+    font-size: 100px;
+}
+#homeBody > h3 {
+    margin-top: 1vh
+}
+#aboutBody > h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
+#aboutBody > h3 {
+    margin-right: 17.5vw;
+    color: white;
+}
+#worksBody > h1 {
+    font-size: 100px;
+    color: white;
+}
+
+#worksList {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+
+}
+#worksList > #listLeft{
+    margin-right: 7.5vw;
+}
+
+#worksList > #listRight{
+    margin-left: 7.5vw;
+}
+
+hr {
+    background-color: #1d2527;
+    height: 1px;
+    border: 1px solid #1d2527
+}
